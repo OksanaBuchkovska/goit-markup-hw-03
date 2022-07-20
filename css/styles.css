@@ -47,7 +47,7 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  border: 2px solid grey;
+  border: 1px solid red;
 }
 
 .link {
@@ -185,14 +185,11 @@ img {
 
 .features-list {
   display: flex;
+  gap: 30px;
 }
 
-.features-list .features-item {
+.features-item {
   max-width: 270px;
-}
-
-.features-list .features-item + .features-item {
-  margin-left: 30px;
 }
 
 .features-title {
@@ -219,7 +216,10 @@ img {
 }
 
 .work-list {
+  display: flex;
+  gap: 30px;
 }
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -233,6 +233,11 @@ img {
 
 .team {
   background-color: #f5f4fa;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
 }
 
 .team-item {
@@ -262,11 +267,24 @@ img {
   background-color: #2f303a;
 }
 
+.logo {
+}
+
 .footer-studio {
   color: var(--second-title-text-color);
 }
 
+.address {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.address-list {
+  width: 231px;
+}
+
 .main-address {
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

@@ -31,6 +31,25 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px solid grey;
+}
+
 .link {
   text-decoration: none;
 }
@@ -39,22 +58,24 @@ address {
   list-style: none;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  outline: 2px solid tomato;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 /* Шапка */
 
+.header {
+  border: 1px solid #ececec;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+}
+
 .logo {
+  margin-top: 24px;
+  margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -75,7 +96,7 @@ address {
   margin-left: 50px;
 }
 
-.header-list .header-link {
+.header-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -99,7 +120,7 @@ address {
 
 .contacts-list {
   display: flex;
-  align-items: center;
+  margin-left: auto;
 }
 
 .contacts-list .item + .item {
@@ -124,11 +145,12 @@ address {
 .hero {
   text-align: center;
   background-color: #2f303a;
-  padding-top: 200px;
-  padding-bottom: 280px;
 }
 
 .hero-title {
+  max-width: 696px;
+  margin: auto;
+  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -142,7 +164,7 @@ address {
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
-  margin-top: 40px;
+  margin-top: 30px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -161,7 +183,20 @@ address {
 
 /* Особливості */
 
+.features-list {
+  display: flex;
+}
+
+.features-list .features-item {
+  max-width: 270px;
+}
+
+.features-list .features-item + .features-item {
+  margin-left: 30px;
+}
+
 .features-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -182,11 +217,16 @@ address {
 .work {
   padding-top: 0;
 }
+
+.work-list {
+}
 .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /* Команда */

@@ -64,17 +64,21 @@ img {
   border: 1px solid #ececec;
 }
 
-.main-header {
+.header > .container {
   display: flex;
-  align-items: center;
 }
 
 .header-nav {
   display: flex;
+  align-items: center;
 }
 
-.logo {
-  margin-top: 24px;
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
+.header-logo {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -86,14 +90,6 @@ img {
 
 .header-studio {
   color: #000000;
-}
-
-.header-list {
-  display: flex;
-}
-
-.header-list .item + .item {
-  margin-left: 50px;
 }
 
 .header-link {
@@ -116,15 +112,11 @@ img {
   color: var(--accent-color);
 }
 
-/*contacts */
-
 .contacts-list {
   display: flex;
+  align-items: center;
   margin-left: auto;
-}
-
-.contacts-list .item + .item {
-  margin-left: 50px;
+  gap: 50px;
 }
 
 .main-contacts {
@@ -160,6 +152,7 @@ img {
 }
 
 .hero-btn {
+  min-width: 216px;
   cursor: pointer;
   border: none;
   border-radius: 4px;
@@ -221,12 +214,12 @@ img {
 }
 
 .title {
+  margin-bottom: 50px;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 /* Команда */
@@ -267,7 +260,13 @@ img {
   background-color: #2f303a;
 }
 
-.logo {
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
 .footer-studio {

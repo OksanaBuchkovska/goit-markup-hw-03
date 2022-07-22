@@ -118,16 +118,29 @@ img {
   gap: 50px;
 }
 
-.main-contacts {
-  font-weight: 500;
+.header-email {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
-.main-contacts:hover,
-.main-contacts:focus {
+.header-email:hover,
+.header-email:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
 
@@ -143,6 +156,7 @@ img {
 .hero-title {
   max-width: 696px;
   margin: auto;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -157,7 +171,6 @@ img {
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
-  margin-top: 30px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -241,7 +254,13 @@ img {
   background-color: var(--primary-bg-color);
 }
 
+.team-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-subtitle {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -266,10 +285,8 @@ img {
   background-color: #2f303a;
 }
 
-.footer-container {
-}
-
 .footer-logo {
+  margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -277,24 +294,21 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+/* .address {
+} */
 
 .footer-studio {
   color: var(--second-title-text-color);
 }
 
-.address-list {
-  margin-top: 20px;
-  width: 231px;
-}
-
-.address-item {
-  margin-bottom: 9px;
+/* .address-item {
 }
 
 .address-item:last-child {
-  margin-bottom: 0px;
-}
+} */
+
 .main-address {
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -307,9 +321,30 @@ img {
   color: var(--accent-color);
 }
 
-.email,
-.tel {
+.footer-email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-email:hover,
+.footer-email:focus {
+  color: var(--accent-color);
+}
+
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
 }
 
 /* Стилі для портфоліо */
@@ -331,7 +366,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 8px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .filters-btn {
   padding: 6px 22px;

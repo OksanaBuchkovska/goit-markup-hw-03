@@ -119,6 +119,8 @@ img {
 }
 
 .header-email {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -132,6 +134,8 @@ img {
 }
 
 .header-tel {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -251,6 +255,9 @@ img {
 
 .team-item {
   width: calc((100% - 90px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-bg-color);
 }
 
@@ -286,6 +293,7 @@ img {
 }
 
 .footer-logo {
+  display: block;
   margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -294,20 +302,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-/* .address {
-} */
 
 .footer-studio {
   color: var(--second-title-text-color);
 }
 
-/* .address-item {
-}
-
-.address-item:last-child {
-} */
-
 .main-address {
+  display: block;
   margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
@@ -322,6 +323,8 @@ img {
 }
 
 .footer-email {
+  display: block;
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
